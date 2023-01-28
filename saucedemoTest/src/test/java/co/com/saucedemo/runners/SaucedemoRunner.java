@@ -7,8 +7,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features", glue = {
-		"co.com.saucedemo.stepsdefinitions" }, snippets = CucumberOptions.SnippetType.CAMELCASE, plugin = { "pretty",
-				"html:target/cucumber", "json:target/cucumber/cucumber.json" })
+		"co.com.saucedemo.stepdefinitions" }, snippets = CucumberOptions.SnippetType.CAMELCASE)
 
 public class SaucedemoRunner {
 
